@@ -23,24 +23,27 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+.container {
+  width: 1158px;         
+  margin: 0 auto;        
+  padding: 0 15px;       
 
+}
 
 .main-header{
   border-bottom: 1px solid #e7e9fc
 }
 
-
-.header-container{
+.header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container {
-  width: 1158px;         
-  margin: 0 auto;        
-  padding: 0 15px;       
- 
+.main-nav {
+  display: flex;
+  align-items: center;
 }
-
 
 
 
@@ -52,6 +55,7 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -68,6 +72,14 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
   }
   
+  .nav-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0
+  }
+  
+
+
   .nav-link:hover,
   .nav-link:focus {
     color: #404bbf;
@@ -77,6 +89,8 @@ h1, h2, h3, h4, h5, h6, p {
 
   .address-link {
     font-style: normal; 
+    display: flex; 
+    gap: 40px;
   }
   
   .contact-link {
