@@ -22,9 +22,21 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
+.main-header {
+  border-bottom: 1px solid #e7e9fc; 
+}
+
+.header-container{
+  display: flex; 
+}
+
 .container{
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
 }
+
 
 .section{
   padding-top: 120px;   
@@ -46,9 +58,25 @@ color: #4d5ae5;
 
 .logo-span {
 color: #2e2f42;
-
+ 
 }
 
+.logo-text{
+  margin-right: 76px
+}
+
+.main-nav{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-list{
+  display: flex; 
+  gap: 40px ;
+
+}
 
 .nav-link {
   color: #2e2f42;
@@ -56,6 +84,8 @@ color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-right: 40px;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -67,6 +97,8 @@ color: #2e2f42;
 
 .address-link {
   font-style: normal; 
+  display: flex; 
+  gap: 40px ;
 }
 
 .contact-link {
@@ -75,6 +107,7 @@ color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-right: 40px;
 }
 
 .contact-link:hover,
