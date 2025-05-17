@@ -96,9 +96,14 @@ color: #2e2f42;
 
 
 .address-link {
-  font-style: normal; 
-  display: flex; 
-  gap: 40px ;
+  font-style: normal;
+}
+
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+  
 }
 
 .contact-link {
@@ -109,9 +114,11 @@ color: #2e2f42;
   text-decoration: none;
   margin-right: 40px;
 }
+ 
 
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus
+{
   color: #404bbf;
 }
 
