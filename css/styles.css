@@ -201,7 +201,7 @@ color: #434455;
 
 
 
-.features-item {
+.features-item li{
   width: calc((100% - 72px) / 4); 
 }
 
@@ -224,11 +224,12 @@ color: #434455;
   overflow: hidden;
 }
 
+
+
 .team {
 background-color: #F4F4FD;
 padding: 120px 0;
 }
-
 
 .team-list{
   display: flex; 
@@ -248,8 +249,6 @@ margin-bottom: 72px;
 .team-item {
 background-color: #ffffff;
 width: calc((100% - 72px) / 4); 
-border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-name {
