@@ -201,8 +201,8 @@ color: #434455;
 
 
 
-.features-item {
-  flex-basis: calc((100% - 72px) / 4);
+.features-item{
+  width: calc((100% - 72px) / 4); 
 }
 
 .features-list{
