@@ -198,7 +198,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.features-item {
+
+
+
+.features-list .features-item{
   width: calc((100% - 72px) / 4); 
 }
 
@@ -220,8 +223,6 @@ color: #434455;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
 
 .team {
 background-color: #F4F4FD;
