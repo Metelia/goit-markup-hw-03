@@ -294,6 +294,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color:#2e2f42;
 margin-bottom: 72px; 
+border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-name{
