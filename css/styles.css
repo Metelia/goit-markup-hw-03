@@ -201,7 +201,7 @@ color: #434455;
 
 
 
-.features-list .features-item{
+.features-item {
   width: calc((100% - 72px) / 4); 
 }
 
