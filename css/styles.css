@@ -199,17 +199,17 @@ color: #434455;
 }
 
 
+.features-list{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
 
 
 .features-item{
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.features-list{
-  display: flex;
-  gap: 24px;
-  list-style: none;
-}
 
 .visually-hidden {
   position: absolute;
