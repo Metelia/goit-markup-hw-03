@@ -318,7 +318,7 @@ letter-spacing: 0.02em;
   row-gap: 48px;
 }
 
- .portfolio-item{
+ .portfolio-item {
   width: calc((100% - 48px) / 3); 
 }
 
