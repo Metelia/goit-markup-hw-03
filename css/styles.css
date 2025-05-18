@@ -198,7 +198,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.features-item {
+.features-item{
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -334,6 +334,8 @@ letter-spacing: 0.02em;
 
 .final {
 background-color: #2e2f42;
+padding: 100px 0 ;
+
 }
 
 
@@ -345,6 +347,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+display: inline-block; 
+margin-bottom: 16px; 
 }
 
 .final-span{
@@ -355,4 +359,5 @@ color: #f4f4fd;
 line-height: 1.5;
 color:#F4F4FD;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
