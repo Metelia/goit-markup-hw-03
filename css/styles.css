@@ -85,6 +85,8 @@ color: #2e2f42;
 .nav-list{
   display: flex; 
   gap: 40px ;
+ 
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -94,7 +96,6 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   text-decoration: none;
   display: inline-block; 
-  padding: 24px 0;
 }
 
 .nav-link:hover,
