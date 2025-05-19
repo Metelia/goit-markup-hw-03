@@ -30,10 +30,14 @@ h1,h2,h3,h4,h5,h6,p{
 
 .main-header {
   border-bottom: 1px solid #e7e9fc; 
+  padding: 15px ;
+
 }
 
 .header-container{
   display: flex; 
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container{
@@ -105,6 +109,7 @@ color: #2e2f42;
 
 .address-link {
   font-style: normal;
+  
 }
 
 
