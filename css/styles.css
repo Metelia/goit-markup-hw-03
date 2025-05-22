@@ -4,7 +4,6 @@ body {
   background-color: #fff;
 }
 
-/* reset */
 
 ul,
 ol {
@@ -26,6 +25,11 @@ p {
 a {
   text-decoration: none;
 }
+
+img{
+  display: block;
+}
+
 
 /* common */
 
